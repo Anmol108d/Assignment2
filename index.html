@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        /* Styles for Button */
+        #colorButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.5s ease; /* Smooth color transition */
+        }
+
+        /* Styles for List Items */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        li:hover {
+            background-color: #d9f9d9;
+            transform: scale(1.05);
+        }
+
+        /* Styles for Box */
+        #boxModelDiv {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid #333;
+            margin: 20px auto;
+            background-color: #f4f4f4;
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <h2>Part 1: Rectangle Area Calculator</h2>
+    <p id="areaResult">Area will be displayed here.</p>
+    
+    <h2>Part 2: Button for Event Handling</h2>
+    <button id="colorButton">Click Me!</button>
+
+    <h2>Part 3: List for DOM  Manipulation</h2>
+    <ul id="itemList">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+    <h2>Part 4: Box Model</h2>
+    <div id="boxModelDiv">Click or Hover Me!</div>
+
+    <!-- Include JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
